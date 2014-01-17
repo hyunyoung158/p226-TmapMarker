@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0026F36C1888CB040000F1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F36B1888CB040000F1B0 /* Foundation.framework */; };
+		0026F36E1888CB040000F1B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F36D1888CB040000F1B0 /* CoreGraphics.framework */; };
+		0026F3701888CB040000F1B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F36F1888CB040000F1B0 /* UIKit.framework */; };
+		0026F3761888CB040000F1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3741888CB040000F1B0 /* InfoPlist.strings */; };
+		0026F3781888CB040000F1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026F3771888CB040000F1B0 /* main.m */; };
+		0026F37C1888CB040000F1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026F37B1888CB040000F1B0 /* AppDelegate.m */; };
+		0026F37F1888CB040000F1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0026F37D1888CB040000F1B0 /* Main.storyboard */; };
+		0026F3821888CB040000F1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026F3811888CB040000F1B0 /* ViewController.m */; };
+		0026F3841888CB040000F1B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3831888CB040000F1B0 /* Images.xcassets */; };
+		0026F38B1888CB040000F1B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F38A1888CB040000F1B0 /* XCTest.framework */; };
+		0026F38C1888CB040000F1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F36B1888CB040000F1B0 /* Foundation.framework */; };
+		0026F38D1888CB040000F1B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F36F1888CB040000F1B0 /* UIKit.framework */; };
+		0026F3951888CB040000F1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3931888CB040000F1B0 /* InfoPlist.strings */; };
+		0026F3971888CB040000F1B0 /* TmapMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026F3961888CB040000F1B0 /* TmapMarketTests.m */; };
+		0026F3C91888CB1D0000F1B0 /* desktop.ini in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3B91888CB1D0000F1B0 /* desktop.ini */; };
+		0026F3CA1888CB1D0000F1B0 /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BA1888CB1D0000F1B0 /* HeadingAngleSmall.png */; };
+		0026F3CB1888CB1D0000F1B0 /* HeadingAngleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BB1888CB1D0000F1B0 /* HeadingAngleSmall@2x.png */; };
+		0026F3CC1888CB1D0000F1B0 /* icon_clustering.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BC1888CB1D0000F1B0 /* icon_clustering.png */; };
+		0026F3CD1888CB1D0000F1B0 /* icon_clustering@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BD1888CB1D0000F1B0 /* icon_clustering@2x.png */; };
+		0026F3CE1888CB1D0000F1B0 /* mapbg_tlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BE1888CB1D0000F1B0 /* mapbg_tlogo.png */; };
+		0026F3CF1888CB1D0000F1B0 /* mapbg_tlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3BF1888CB1D0000F1B0 /* mapbg_tlogo@2x.png */; };
+		0026F3D01888CB1D0000F1B0 /* poweredby.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C01888CB1D0000F1B0 /* poweredby.png */; };
+		0026F3D11888CB1D0000F1B0 /* poweredby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C11888CB1D0000F1B0 /* poweredby@2x.png */; };
+		0026F3D21888CB1D0000F1B0 /* TrackingDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C21888CB1D0000F1B0 /* TrackingDot.png */; };
+		0026F3D31888CB1D0000F1B0 /* TrackingDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C31888CB1D0000F1B0 /* TrackingDot@2x.png */; };
+		0026F3D41888CB1D0000F1B0 /* TrackingDotHalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C41888CB1D0000F1B0 /* TrackingDotHalo.png */; };
+		0026F3D51888CB1D0000F1B0 /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3C51888CB1D0000F1B0 /* TrackingDotHalo@2x.png */; };
+		0026F3D61888CB1D0000F1B0 /* libskpMap_OP-iOS7.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026F3C61888CB1D0000F1B0 /* libskpMap_OP-iOS7.0.a */; };
+		0026F3D91888CC7C0000F1B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026F3D81888CC7C0000F1B0 /* DetailViewController.m */; };
+		0026F3E11888E34A0000F1B0 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3E01888E34A0000F1B0 /* image1.png */; };
+		0026F3E31888E3DF0000F1B0 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026F3E21888E3DF0000F1B0 /* right_arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0026F38E1888CB040000F1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0026F3601888CB040000F1B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0026F3671888CB040000F1B0;
+			remoteInfo = TmapMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0026F3681888CB040000F1B0 /* TmapMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TmapMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0026F36B1888CB040000F1B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0026F36D1888CB040000F1B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0026F36F1888CB040000F1B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0026F3731888CB040000F1B0 /* TmapMarket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TmapMarket-Info.plist"; sourceTree = "<group>"; };
+		0026F3751888CB040000F1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0026F3771888CB040000F1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0026F3791888CB040000F1B0 /* TmapMarket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TmapMarket-Prefix.pch"; sourceTree = "<group>"; };
+		0026F37A1888CB040000F1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0026F37B1888CB040000F1B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0026F37E1888CB040000F1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0026F3801888CB040000F1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0026F3811888CB040000F1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0026F3831888CB040000F1B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0026F3891888CB040000F1B0 /* TmapMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TmapMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0026F38A1888CB040000F1B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0026F3921888CB040000F1B0 /* TmapMarketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TmapMarketTests-Info.plist"; sourceTree = "<group>"; };
+		0026F3941888CB040000F1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0026F3961888CB040000F1B0 /* TmapMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TmapMarketTests.m; sourceTree = "<group>"; };
+		0026F3A31888CB1D0000F1B0 /* BizCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizCategory.h; sourceTree = "<group>"; };
+		0026F3A51888CB1D0000F1B0 /* TMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMap.h; sourceTree = "<group>"; };
+		0026F3A61888CB1D0000F1B0 /* TMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapAnnotation.h; sourceTree = "<group>"; };
+		0026F3A71888CB1D0000F1B0 /* TMapBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapBaseView.h; sourceTree = "<group>"; };
+		0026F3A81888CB1D0000F1B0 /* TMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapCircle.h; sourceTree = "<group>"; };
+		0026F3A91888CB1D0000F1B0 /* TMapGpsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapGpsManager.h; sourceTree = "<group>"; };
+		0026F3AA1888CB1D0000F1B0 /* TMapKatec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapKatec.h; sourceTree = "<group>"; };
+		0026F3AB1888CB1D0000F1B0 /* TMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapLayer.h; sourceTree = "<group>"; };
+		0026F3AC1888CB1D0000F1B0 /* TMapMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarker.h; sourceTree = "<group>"; };
+		0026F3AD1888CB1D0000F1B0 /* TMapMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem.h; sourceTree = "<group>"; };
+		0026F3AE1888CB1D0000F1B0 /* TMapMarkerItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem2.h; sourceTree = "<group>"; };
+		0026F3AF1888CB1D0000F1B0 /* TMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapObject.h; sourceTree = "<group>"; };
+		0026F3B01888CB1D0000F1B0 /* TMapPathData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPathData.h; sourceTree = "<group>"; };
+		0026F3B11888CB1D0000F1B0 /* TMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPOIItem.h; sourceTree = "<group>"; };
+		0026F3B21888CB1D0000F1B0 /* TMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPoint.h; sourceTree = "<group>"; };
+		0026F3B31888CB1D0000F1B0 /* TMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolygon.h; sourceTree = "<group>"; };
+		0026F3B41888CB1D0000F1B0 /* TMapPolyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolyLine.h; sourceTree = "<group>"; };
+		0026F3B51888CB1D0000F1B0 /* TMapTapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapTapi.h; sourceTree = "<group>"; };
+		0026F3B61888CB1D0000F1B0 /* TMapType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapType.h; sourceTree = "<group>"; };
+		0026F3B71888CB1D0000F1B0 /* TMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapView.h; sourceTree = "<group>"; };
+		0026F3B91888CB1D0000F1B0 /* desktop.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = desktop.ini; sourceTree = "<group>"; };
+		0026F3BA1888CB1D0000F1B0 /* HeadingAngleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadingAngleSmall.png; sourceTree = "<group>"; };
+		0026F3BB1888CB1D0000F1B0 /* HeadingAngleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadingAngleSmall@2x.png"; sourceTree = "<group>"; };
+		0026F3BC1888CB1D0000F1B0 /* icon_clustering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_clustering.png; sourceTree = "<group>"; };
+		0026F3BD1888CB1D0000F1B0 /* icon_clustering@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_clustering@2x.png"; sourceTree = "<group>"; };
+		0026F3BE1888CB1D0000F1B0 /* mapbg_tlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapbg_tlogo.png; sourceTree = "<group>"; };
+		0026F3BF1888CB1D0000F1B0 /* mapbg_tlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapbg_tlogo@2x.png"; sourceTree = "<group>"; };
+		0026F3C01888CB1D0000F1B0 /* poweredby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweredby.png; sourceTree = "<group>"; };
+		0026F3C11888CB1D0000F1B0 /* poweredby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poweredby@2x.png"; sourceTree = "<group>"; };
+		0026F3C21888CB1D0000F1B0 /* TrackingDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackingDot.png; sourceTree = "<group>"; };
+		0026F3C31888CB1D0000F1B0 /* TrackingDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackingDot@2x.png"; sourceTree = "<group>"; };
+		0026F3C41888CB1D0000F1B0 /* TrackingDotHalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackingDotHalo.png; sourceTree = "<group>"; };
+		0026F3C51888CB1D0000F1B0 /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackingDotHalo@2x.png"; sourceTree = "<group>"; };
+		0026F3C61888CB1D0000F1B0 /* libskpMap_OP-iOS7.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libskpMap_OP-iOS7.0.a"; sourceTree = "<group>"; };
+		0026F3D71888CC7C0000F1B0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0026F3D81888CC7C0000F1B0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0026F3E01888E34A0000F1B0 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		0026F3E21888E3DF0000F1B0 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0026F3651888CB040000F1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F36E1888CB040000F1B0 /* CoreGraphics.framework in Frameworks */,
+				0026F3701888CB040000F1B0 /* UIKit.framework in Frameworks */,
+				0026F3D61888CB1D0000F1B0 /* libskpMap_OP-iOS7.0.a in Frameworks */,
+				0026F36C1888CB040000F1B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0026F3861888CB040000F1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F38B1888CB040000F1B0 /* XCTest.framework in Frameworks */,
+				0026F38D1888CB040000F1B0 /* UIKit.framework in Frameworks */,
+				0026F38C1888CB040000F1B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0026F35F1888CB040000F1B0 = {
+			isa = PBXGroup;
+			children = (
+				0026F3E21888E3DF0000F1B0 /* right_arrow.png */,
+				0026F3E01888E34A0000F1B0 /* image1.png */,
+				0026F3A01888CB1D0000F1B0 /* lib */,
+				0026F3711888CB040000F1B0 /* TmapMarket */,
+				0026F3901888CB040000F1B0 /* TmapMarketTests */,
+				0026F36A1888CB040000F1B0 /* Frameworks */,
+				0026F3691888CB040000F1B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0026F3691888CB040000F1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3681888CB040000F1B0 /* TmapMarket.app */,
+				0026F3891888CB040000F1B0 /* TmapMarketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0026F36A1888CB040000F1B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0026F36B1888CB040000F1B0 /* Foundation.framework */,
+				0026F36D1888CB040000F1B0 /* CoreGraphics.framework */,
+				0026F36F1888CB040000F1B0 /* UIKit.framework */,
+				0026F38A1888CB040000F1B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0026F3711888CB040000F1B0 /* TmapMarket */ = {
+			isa = PBXGroup;
+			children = (
+				0026F37A1888CB040000F1B0 /* AppDelegate.h */,
+				0026F37B1888CB040000F1B0 /* AppDelegate.m */,
+				0026F37D1888CB040000F1B0 /* Main.storyboard */,
+				0026F3801888CB040000F1B0 /* ViewController.h */,
+				0026F3811888CB040000F1B0 /* ViewController.m */,
+				0026F3831888CB040000F1B0 /* Images.xcassets */,
+				0026F3721888CB040000F1B0 /* Supporting Files */,
+				0026F3D71888CC7C0000F1B0 /* DetailViewController.h */,
+				0026F3D81888CC7C0000F1B0 /* DetailViewController.m */,
+			);
+			path = TmapMarket;
+			sourceTree = "<group>";
+		};
+		0026F3721888CB040000F1B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3731888CB040000F1B0 /* TmapMarket-Info.plist */,
+				0026F3741888CB040000F1B0 /* InfoPlist.strings */,
+				0026F3771888CB040000F1B0 /* main.m */,
+				0026F3791888CB040000F1B0 /* TmapMarket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0026F3901888CB040000F1B0 /* TmapMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3961888CB040000F1B0 /* TmapMarketTests.m */,
+				0026F3911888CB040000F1B0 /* Supporting Files */,
+			);
+			path = TmapMarketTests;
+			sourceTree = "<group>";
+		};
+		0026F3911888CB040000F1B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3921888CB040000F1B0 /* TmapMarketTests-Info.plist */,
+				0026F3931888CB040000F1B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0026F3A01888CB1D0000F1B0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3A21888CB1D0000F1B0 /* Headers */,
+				0026F3B81888CB1D0000F1B0 /* Images */,
+				0026F3C61888CB1D0000F1B0 /* libskpMap_OP-iOS7.0.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0026F3A21888CB1D0000F1B0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3A31888CB1D0000F1B0 /* BizCategory.h */,
+				0026F3A51888CB1D0000F1B0 /* TMap.h */,
+				0026F3A61888CB1D0000F1B0 /* TMapAnnotation.h */,
+				0026F3A71888CB1D0000F1B0 /* TMapBaseView.h */,
+				0026F3A81888CB1D0000F1B0 /* TMapCircle.h */,
+				0026F3A91888CB1D0000F1B0 /* TMapGpsManager.h */,
+				0026F3AA1888CB1D0000F1B0 /* TMapKatec.h */,
+				0026F3AB1888CB1D0000F1B0 /* TMapLayer.h */,
+				0026F3AC1888CB1D0000F1B0 /* TMapMarker.h */,
+				0026F3AD1888CB1D0000F1B0 /* TMapMarkerItem.h */,
+				0026F3AE1888CB1D0000F1B0 /* TMapMarkerItem2.h */,
+				0026F3AF1888CB1D0000F1B0 /* TMapObject.h */,
+				0026F3B01888CB1D0000F1B0 /* TMapPathData.h */,
+				0026F3B11888CB1D0000F1B0 /* TMapPOIItem.h */,
+				0026F3B21888CB1D0000F1B0 /* TMapPoint.h */,
+				0026F3B31888CB1D0000F1B0 /* TMapPolygon.h */,
+				0026F3B41888CB1D0000F1B0 /* TMapPolyLine.h */,
+				0026F3B51888CB1D0000F1B0 /* TMapTapi.h */,
+				0026F3B61888CB1D0000F1B0 /* TMapType.h */,
+				0026F3B71888CB1D0000F1B0 /* TMapView.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0026F3B81888CB1D0000F1B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0026F3B91888CB1D0000F1B0 /* desktop.ini */,
+				0026F3BA1888CB1D0000F1B0 /* HeadingAngleSmall.png */,
+				0026F3BB1888CB1D0000F1B0 /* HeadingAngleSmall@2x.png */,
+				0026F3BC1888CB1D0000F1B0 /* icon_clustering.png */,
+				0026F3BD1888CB1D0000F1B0 /* icon_clustering@2x.png */,
+				0026F3BE1888CB1D0000F1B0 /* mapbg_tlogo.png */,
+				0026F3BF1888CB1D0000F1B0 /* mapbg_tlogo@2x.png */,
+				0026F3C01888CB1D0000F1B0 /* poweredby.png */,
+				0026F3C11888CB1D0000F1B0 /* poweredby@2x.png */,
+				0026F3C21888CB1D0000F1B0 /* TrackingDot.png */,
+				0026F3C31888CB1D0000F1B0 /* TrackingDot@2x.png */,
+				0026F3C41888CB1D0000F1B0 /* TrackingDotHalo.png */,
+				0026F3C51888CB1D0000F1B0 /* TrackingDotHalo@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0026F3671888CB040000F1B0 /* TmapMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0026F39A1888CB050000F1B0 /* Build configuration list for PBXNativeTarget "TmapMarket" */;
+			buildPhases = (
+				0026F3641888CB040000F1B0 /* Sources */,
+				0026F3651888CB040000F1B0 /* Frameworks */,
+				0026F3661888CB040000F1B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TmapMarket;
+			productName = TmapMarket;
+			productReference = 0026F3681888CB040000F1B0 /* TmapMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0026F3881888CB040000F1B0 /* TmapMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0026F39D1888CB050000F1B0 /* Build configuration list for PBXNativeTarget "TmapMarketTests" */;
+			buildPhases = (
+				0026F3851888CB040000F1B0 /* Sources */,
+				0026F3861888CB040000F1B0 /* Frameworks */,
+				0026F3871888CB040000F1B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0026F38F1888CB040000F1B0 /* PBXTargetDependency */,
+			);
+			name = TmapMarketTests;
+			productName = TmapMarketTests;
+			productReference = 0026F3891888CB040000F1B0 /* TmapMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0026F3601888CB040000F1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SDT-1";
+				TargetAttributes = {
+					0026F3881888CB040000F1B0 = {
+						TestTargetID = 0026F3671888CB040000F1B0;
+					};
+				};
+			};
+			buildConfigurationList = 0026F3631888CB040000F1B0 /* Build configuration list for PBXProject "TmapMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0026F35F1888CB040000F1B0;
+			productRefGroup = 0026F3691888CB040000F1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0026F3671888CB040000F1B0 /* TmapMarket */,
+				0026F3881888CB040000F1B0 /* TmapMarketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0026F3661888CB040000F1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F3CC1888CB1D0000F1B0 /* icon_clustering.png in Resources */,
+				0026F3D51888CB1D0000F1B0 /* TrackingDotHalo@2x.png in Resources */,
+				0026F3E31888E3DF0000F1B0 /* right_arrow.png in Resources */,
+				0026F3D41888CB1D0000F1B0 /* TrackingDotHalo.png in Resources */,
+				0026F3C91888CB1D0000F1B0 /* desktop.ini in Resources */,
+				0026F3CA1888CB1D0000F1B0 /* HeadingAngleSmall.png in Resources */,
+				0026F3841888CB040000F1B0 /* Images.xcassets in Resources */,
+				0026F3CD1888CB1D0000F1B0 /* icon_clustering@2x.png in Resources */,
+				0026F3CF1888CB1D0000F1B0 /* mapbg_tlogo@2x.png in Resources */,
+				0026F3761888CB040000F1B0 /* InfoPlist.strings in Resources */,
+				0026F3CE1888CB1D0000F1B0 /* mapbg_tlogo.png in Resources */,
+				0026F3D31888CB1D0000F1B0 /* TrackingDot@2x.png in Resources */,
+				0026F3D21888CB1D0000F1B0 /* TrackingDot.png in Resources */,
+				0026F3CB1888CB1D0000F1B0 /* HeadingAngleSmall@2x.png in Resources */,
+				0026F3D11888CB1D0000F1B0 /* poweredby@2x.png in Resources */,
+				0026F3D01888CB1D0000F1B0 /* poweredby.png in Resources */,
+				0026F37F1888CB040000F1B0 /* Main.storyboard in Resources */,
+				0026F3E11888E34A0000F1B0 /* image1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0026F3871888CB040000F1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F3951888CB040000F1B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0026F3641888CB040000F1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F3821888CB040000F1B0 /* ViewController.m in Sources */,
+				0026F37C1888CB040000F1B0 /* AppDelegate.m in Sources */,
+				0026F3781888CB040000F1B0 /* main.m in Sources */,
+				0026F3D91888CC7C0000F1B0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0026F3851888CB040000F1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0026F3971888CB040000F1B0 /* TmapMarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0026F38F1888CB040000F1B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0026F3671888CB040000F1B0 /* TmapMarket */;
+			targetProxy = 0026F38E1888CB040000F1B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0026F3741888CB040000F1B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0026F3751888CB040000F1B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0026F37D1888CB040000F1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0026F37E1888CB040000F1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0026F3931888CB040000F1B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0026F3941888CB040000F1B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0026F3981888CB050000F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0026F3991888CB050000F1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0026F39B1888CB050000F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TmapMarket/TmapMarket-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/sdt-1/Documents/Projects/TmapMarket/lib/Headers",
+				);
+				INFOPLIST_FILE = "TmapMarket/TmapMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/Projects/TmapMarket/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0026F39C1888CB050000F1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TmapMarket/TmapMarket-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/sdt-1/Documents/Projects/TmapMarket/lib/Headers",
+				);
+				INFOPLIST_FILE = "TmapMarket/TmapMarket-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/Projects/TmapMarket/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0026F39E1888CB050000F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TmapMarket.app/TmapMarket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TmapMarket/TmapMarket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TmapMarketTests/TmapMarketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0026F39F1888CB050000F1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TmapMarket.app/TmapMarket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TmapMarket/TmapMarket-Prefix.pch";
+				INFOPLIST_FILE = "TmapMarketTests/TmapMarketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0026F3631888CB040000F1B0 /* Build configuration list for PBXProject "TmapMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0026F3981888CB050000F1B0 /* Debug */,
+				0026F3991888CB050000F1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0026F39A1888CB050000F1B0 /* Build configuration list for PBXNativeTarget "TmapMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0026F39B1888CB050000F1B0 /* Debug */,
+				0026F39C1888CB050000F1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0026F39D1888CB050000F1B0 /* Build configuration list for PBXNativeTarget "TmapMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0026F39E1888CB050000F1B0 /* Debug */,
+				0026F39F1888CB050000F1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0026F3601888CB040000F1B0 /* Project object */;
+}
